@@ -1,7 +1,7 @@
 <h1><B>Poverty as a Persona</B></h1>
 <h2> <B>Leveraging Predictive Modeling to Forecast Average Salaries in the United States</B> </h2>
 
-<h3>Team Name - <B>Datanauts</B> 
+<h3>Team Name - <B>Datalytics Phoenix</B> 
 <h3>Team Members:</h3>
  
 <ul>
