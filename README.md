@@ -1,3 +1,0 @@
-# CTPproject
-
-## Test! first commit!!
