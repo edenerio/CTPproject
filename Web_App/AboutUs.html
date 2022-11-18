@@ -4,7 +4,7 @@
 <title>Datalytics Phoenix</title>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="Web_App/styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 
 <body>
@@ -19,6 +19,7 @@
   </div>
   -->
   <ul>
+
     <li>
       <a class="navbar-brand" href="/">
         <div class="logo-image">
@@ -27,7 +28,7 @@
       </a>
     </li>
     <li>
-      <a href="./index.html">Home</a>
+      <a href="../index.html">Home</a>
     </li>
     <li>
       <a href="#" onclick="setURL('https://edenerio-ctpproject-web-apppredict-y1hzo8.streamlit.app/?embedded=true')">Predict</a>
@@ -42,7 +43,7 @@
     -->
     <div class="topnav-right">
       <li>
-        <a href="./Web_App/AboutUs.html">About Us</a>
+        <a href="#" onclick="setURL('https://edenerio-ctpproject-web-appaboutus-aab0fm.streamlit.app/?embedded=true')">About Us</a>
       </li>
       <li>
         <a href="#" onclick="setURL('http://localhost:8501/?p=results')">Contact Us</a>
@@ -54,10 +55,31 @@
     wmode="transparent">
     Your browser doesn't support iframes
   </iframe>
-  
-  <h1><center>Under Construction!</center></h1>
-  <center><img src="./Web_App/Assets/home_img.png"></center>
 
+  <h1><center>Meet the Team!</center></h1>
+
+  <center>
+  <div class="row">
+    <div class = "column">
+      <h2>Phillip Park</h2>
+      <img src="./Assets/default-avatar.png" alt="Phillip">
+      <h3>R & D Lead</h3>
+      <a href="">LinkedIn</a>
+    </div>
+    <div class = "column">
+      <h2>Videsh Narine</h2>
+      <img src="./Assets/default-avatar.png" alt="Videsh">
+      <h3>Enginerring Lead</h3>
+      <a href="https://www.linkedin.com/in/videsh-narine-774369190/">LinkedIn</a>
+    </div>
+    <div class = "column">
+      <h2>Edison Enerio</h2>
+      <img src="./Assets/default-avatar.png" alt="Edison">
+      <h3>Project Lead</h3>
+      <a href="https://www.linkedin.com/in/edison-enerio">LinkedIn</a>
+    </div>
+  </div>
+  </center>
 </body>
 <script>
   function setURL(url) {
