@@ -47,10 +47,8 @@ li a:hover:not(.active) {
 }
 
 iframe{
-    width: 100%;
     border: none;
     position: fixed;
-    height: 100%;
     z-index: 0;
 }
 .dropbtn {
@@ -105,10 +103,20 @@ font-size: large;
 .column {
   float: left;
   width: 33.33%;
+  margin: auto;
 }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.container{
+  width: 1250px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
 }

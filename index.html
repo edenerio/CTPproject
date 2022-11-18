@@ -51,7 +51,7 @@
   </ul>
 
   <iframe src="" id="streamlit_content" allowfullscreen frameborder="0"
-    wmode="transparent">
+    wmode="transparent" width = "0" height="0">
     Your browser doesn't support iframes
   </iframe>
   
@@ -62,6 +62,8 @@
 <script>
   function setURL(url) {
     document.getElementById('streamlit_content').src = url;
+    document.getElementById('streamlit_content').width = "100%";
+    document.getElementById('streamlit_content').height = "100%";
     console.log('Works!')
   }
 </script>

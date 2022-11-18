@@ -52,31 +52,48 @@
   </ul>
 
   <iframe src="" id="streamlit_content" allowfullscreen frameborder="0"
-    wmode="transparent">
+    wmode="transparent" width="0" height="0">
     Your browser doesn't support iframes
   </iframe>
 
   <h1><center>Meet the Team!</center></h1>
 
   <center>
-  <div class="row">
-    <div class = "column">
-      <h2>Phillip Park</h2>
-      <img src="./Assets/default-avatar.png" alt="Phillip">
-      <h3>R & D Lead</h3>
-      <a href="">LinkedIn</a>
-    </div>
-    <div class = "column">
-      <h2>Videsh Narine</h2>
-      <img src="./Assets/default-avatar.png" alt="Videsh">
-      <h3>Enginerring Lead</h3>
-      <a href="https://www.linkedin.com/in/videsh-narine-774369190/">LinkedIn</a>
-    </div>
-    <div class = "column">
-      <h2>Edison Enerio</h2>
-      <img src="./Assets/default-avatar.png" alt="Edison">
-      <h3>Project Lead</h3>
-      <a href="https://www.linkedin.com/in/edison-enerio">LinkedIn</a>
+  <div class="container">
+    <div class="row">
+      <div class = "column">
+        <div class = "card">
+          <h2>Philip Park</h2>
+          <img src="./Assets/default-avatar.png" alt="Phillip">
+          <h3>R & D Lead</h3>
+          <p>Hi! My name is Philip Park and I am a senior majoring in Computer Science and minoring in Economics. 
+            I am interested in a career in Data Science and my ultimate dream is to launch my startup The Study Space. 
+            I love to read and play sports but not at the same time.</p>
+          <a href="https://www.linkedin.com/in/philip-p-1b69661bb/">LinkedIn</a>
+      </div>
+      </div>
+      <div class = "column">
+        <div class = "card">
+          <h2>Videsh Narine</h2>
+          <img src="./Assets/default-avatar.png" alt="Videsh">
+          <h3>Enginerring Lead</h3>
+          <p>Hello!! My name is Videsh Narine, I am senior at Queens College majoring in Computer Science. 
+            In graduating I want to pursue a career in Data Engineering or maybe Cyber Security. 
+            In my leisure, I am an indie game developer and like long walks in the park. </p>
+          <a href="https://www.linkedin.com/in/videsh-narine-774369190/">LinkedIn</a>
+        </div>
+      </div>
+      <div class = "column">
+        <div class = "card">
+          <h2>Edison Enerio</h2>
+          <img src="./Assets/default-avatar.png" alt="Edison">
+          <h3>Project Lead</h3>
+          <p>My name is Edison Enerio and I am a senior at Queens College majoring in Computer Science. I am interested in a
+            career in Software Engineering or Development. I enjoy watching NBA and my favorite player is Giannis Antetokounmpo.
+            DotA2 (game) have saved and ruined my life at the same time!</p>
+          <a href="https://www.linkedin.com/in/edison-enerio">LinkedIn</a>
+        </div>
+      </div>
     </div>
   </div>
   </center>
@@ -84,6 +101,8 @@
 <script>
   function setURL(url) {
     document.getElementById('streamlit_content').src = url;
+    document.getElementById('streamlit_content').width = "100%";
+    document.getElementById('streamlit_content').height = "100%";
     console.log('Works!')
   }
 </script>
