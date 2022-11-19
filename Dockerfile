@@ -6,4 +6,4 @@ copy requirements.txt ./requirements.txt
 run pip3 install -r requirements.txt
 copy . .
 ENTRYPOINT ["streamlit", "run"]
-CMD ["./Web_App/Predict.py", "./Web_App/Analysis.py"]
+CMD ["../Web_App/Predict.py"]
