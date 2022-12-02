@@ -25,6 +25,7 @@ ul {
   --gr1: #9A8C98;
   --gr2: #C9ADA7;
   --gr3: #F2E9E4;
+  --powder-blue: #9AD1D4;
 }
 li {
     height: 100%;
@@ -149,4 +150,22 @@ font-size: large;
 .italicized{
   font-size: 17px;
   font-style: italic;
+}
+
+.form-container {
+  color: white;
+  border-radius: 25px;
+  background: var(--navy-blue);
+  padding: 20px;
+  width: 600px;
+  height: 700px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-2 {
+  float: left;
+  width: 50%;
+  margin: auto;
 }
