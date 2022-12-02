@@ -1,10 +1,9 @@
-<!-- credits to https://github.com/BugzTheBunny/streamlit_navbar-->
 <!DOCTYPE html>
 <html>
 <title>Datalytics Phoenix</title>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="Web_App/styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 
 <body>
@@ -28,7 +27,7 @@
     </li>
     <div class="topnav-right">
       <li>
-        <a href="./Web_App/Predict.html">Predict</a>
+        <a href="./Predict.html">Predict</a>
       </li>
       <!--http://localhost:8501/?p=Predict-->
       <li>
@@ -40,7 +39,7 @@
     </li>
     -->
       <li>
-        <a href="./Web_App/AboutUs.html"><font size=2px>About Us</font></a>
+        <a href="./AboutUs.html"><font size=2px>About Us</font></a>
       </li>
       <li>
         <a href="#" onclick="setURL('http://localhost:8501/?p=results')"><font size=2px>Contact Us</font></a>
@@ -48,33 +47,10 @@
     </div>
   </ul>
 
+
   <iframe src="" id="streamlit_content" allowfullscreen frameborder="0"
-    wmode="transparent" width = "0" height="0">
+    wmode="transparent" width="0" height="0">
     Your browser doesn't support iframes
   </iframe>
-  <!--
-  <h1><center>Under Construction!</center></h1>
-  <center><img src="./Web_App/Assets/home_img.png"></center>
-  -->
-  <center>
-  <div class="container-home">
-    <div class="home-title">
-      DATALYTICS PHOENIX <br>
-      <img src="./Web_App/Assets/datalyticsphx.png">
-      <div class="italicized">
-        "Providing transformative insights from arising data."
-      </div>
-    </div>
-  </div>
-  </center>
 </body>
-<script>
-  function setURL(url) {
-    document.getElementById('streamlit_content').src = url;
-    document.getElementById('streamlit_content').width = "100%";
-    document.getElementById('streamlit_content').height = "100%";
-    console.log('Works!')
-  }
-</script>
-
 </html>
