@@ -52,30 +52,25 @@
     wmode="transparent" width="0" height="0">
     Your browser doesn't support iframes
   </iframe>
-
+  <form>
   <div class="form-container">
     <div class="row">
       <div class="column-2">
-        <form>
-          <label for="user-sex">Age:</label><br><br>
-          <input type="number" min="0" step="1" id="user-age"><br>
-        </form>
+          <label for="user-age">Age:</label><br><br>
+          <input type="number" min="0" step="1" name="user-age" id="user-age"><br>
       </div>
       <div class="column-2">
-        <form>
           <label for="user-sex">Sex:</label><br><br>
           <select name="user-sex" id="user-sex">
             <option value = "none" selected disabled hidden>Select an Option</option>
             <option value = "male">Male</option>
             <option value = "female">Female</option>
           </select>
-        </form>
       </div>
     </div>
     <br><br><br>
     <div class="row">
       <div class="column-2">
-        <form>
           <label for="user-marital-status">Marital Status:</label><br><br>
           <select name="user-marital-status" id="user-marital-status">
             <option value="none" selected disabled hidden>Select an Option</option>
@@ -85,10 +80,8 @@
             <option value="separated">Separated</option>
             <option value="never-married">Never Married</option>
           </select>
-        </form>
       </div>
       <div class="column-2">
-        <form>
           <label for="ed-level">Education Level:</label><br><br>
           <select name="ed-level" id="ed-level">
             <option value="none" selected disabled hidden>Select an Option</option>
@@ -98,13 +91,11 @@
             <option value="3">Some college education</option>
             <option value="4">College degree</option>
           </select>
-        </form>
       </div>
     </div>
     <br><br><br>
     <div class="row">
       <div class="column-2">
-        <form>
           <label for="user-state">State:</label><br><br>
           <select name="user-state" id="user-state">
             <option value="none" selected disabled hidden>Select an Option</option>
@@ -159,10 +150,8 @@
             <option value="WY">Wyoming</option>
             <option value="Other">Other</option>
           </select>
-        </form>
       </div>
       <div class="column-2">
-        <form>
           <label for="user-race">Race:</label><br><br>
           <select name="user-race" id="user-race">
             <option value="none" selected disabled hidden>Select an Option</option>
@@ -171,9 +160,14 @@
             <option value="3" >Asian alone</option>
             <option value="4">Other (Pacific Islander, multiracial, etc.)</option>
           </select>
-        </form>
       </div>
     </div>
+    <br><br><br><br><br>
+    <center>
+      <input type="submit" value="Submit">
+    </center>
+
   </div>
+  </form>
 </body>
 </html>

@@ -136,7 +136,8 @@ font-size: large;
 }
 
 .container-home{
-  width: 1500px;
+  width: 1000px;
+  margin-top: 60px;
 }
 
 .home-title{
@@ -168,4 +169,11 @@ font-size: large;
   float: left;
   width: 50%;
   margin: auto;
+}
+
+.column-home {
+  float: left;
+  width: 50%;
+  margin: auto;
+  text-align: left;
 }
