@@ -1,22 +1,7 @@
 import streamlit as st
 import pandas as pd
-# import numpy as np
 from sklearn.model_selection import ShuffleSplit
-# from sklearn import preprocessing
-# from sklearn.impute import SimpleImputer
-# from sklearn.model_selection import KFold
-# from sklearn.linear_model import LinearRegression
-# import matplotlib.pyplot as plt
-# from sklearn.decomposition import PCA
-# from sklearn import linear_model
-# from sklearn.model_selection import GridSearchCV
-# from sklearn.neural_network import MLPRegressor
-# from sklearn.preprocessing import scale
-# from sklearn.model_selection import StratifiedShuffleSplit
-# from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestRegressor
-# import time
-# import math
 
 @st.cache(allow_output_mutation=True)
 def pipeline(clf):
